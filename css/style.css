@@ -25,8 +25,14 @@ body,.white,.white:hover,.white:focus,.navbar-default .navbar-nav>li>a,.navbar-d
 .bgwhite{
     background-color: white;
 }
+.red{
+    color: #fe0000;
+}
 .orange{
     color: #fb7e46;
+}
+.dorange{
+    color: #fe5003;
 }
 .bgorange,.bgorange:hover,.bgorange:focus,.bgorange:active{
     background-color: #fb8f41;
@@ -156,6 +162,11 @@ footer .media {
 .btn-reg p{
     margin: 5px 5px
 }
+/*----thanks----*/
+.img-links{
+    position: relative;
+    margin-top: -22px;
+}
 /*----separate----*/
 @media (max-width: 767px) {
     .smallspace{
@@ -172,7 +183,7 @@ footer .media {
 @media (max-width: 991px) {
     h1{font-size: 38px}
     .size40{font-size: 33px}
-    h2{font-size: 26px}
+    h2,.size33{font-size: 26px}
     h3,.size25{font-size: 18px}
     h4,p{font-size: 16px}
     .size16{font-size: 14px}
@@ -230,7 +241,7 @@ footer .media {
 @media (min-width: 992px){
     h1{font-size: 45px}
     .size40{font-size: 40px}
-    h2{font-size: 33px}
+    h2,.size33{font-size: 33px}
     h3,.size25{font-size: 25px}
     h4,p{font-size: 18px}
     .size16{font-size: 16px}
